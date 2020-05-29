@@ -1,0 +1,31 @@
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+.topic-list ul li { line-height: 24px; padding: 20px 0; border-bottom: 1px solid #eee; box-sizing: border-box;}
+.topic-list ul li::before{ content: ""; display: table; clear: both;}
+.topic-list ul li::after{ content: ""; display: table; clear: both;}
+.topic-list ul li:last-child { border-bottom: none; }
+.topic-list ul li:hover { background-color: #f8f8f8; }
+.topic-list ul li:hover .l-btn { border: none; color: #fff; background-image: linear-gradient(270deg, #ff5e2c 0%, #ffa88d 100%); }
+.topic-list .l-title, .topic-list .l-score { float: left; }
+.topic-list .l-btn { float: right; }
+.topic-list .l-title { width: 490px; }
+.topic-list .l-title .t-col { float: left; width: 98%; }
+.topic-list .l-title .t-bg { float: left; height: 100%; margin: 0 10px; }
+.topic-list .l-title .t-bg + .t-col { width: 86%; }
+.topic-list .l-title .t-text { font-size: 16px; }
+.topic-list .l-title .degree { font-size: 12px; color: #999999; }
+.topic-list .l-score { color: #999999; padding-top: 10px; }
+.topic-list .l-score span { margin-right: 50px; }
+.topic-list .l-btn { padding: 0 16px; height: 26px; line-height: 24px; background-color: #fff4f1; color: #ff5e2c; border: 1px solid #ff5e2c; box-sizing: border-box; border-radius: 13px; margin-top: 10px; margin-right: 28px; }
+
+/*分页*/
+.page-wrap { width: 100%; border-top: 1px solid #ddd; display: -webkit-box; -webkit-box-orient: horizontal; display: box; box-orient: horizontal; display: -webkit-flex; -webkit-flex-direction: row; display: flex; flex-direction: row; }
+.page-wrap .page { margin: 30px auto; line-height: 34px; -webkit-box-pack: center; box-pack: center; -webkit-justify-content: center; justify-content: center; width: 555px\9\0; *width: 555px; *text-align: center; *margin-top: 10px; }
+.page a { color: #666; display: block; float: left; width: 32px; height: 32px; text-align: center; line-height: 32px; background: #fff; font-size: 14px; margin-right: 10px; border: 1px solid #ddd; border-radius: 4px;}
+.page a.first,.page a.end { width: 62px; background: #eee; }
+.page a.next, .page a.prev { width: 90px; background: #eee;}
+.page span { display: block; float: left; width: 32px; height: 32px; line-height: 25px; font-size: 14px; color: #212b4c; margin-left: -10px; }
+.page span.total { width: auto; line-height: 34px; margin-right: 10px; color: #666; }
+.page a.cur,.page a:hover { background: #cf3340; color: #fff; border-color: #cf3340;}
