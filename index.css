@@ -1,5 +1,8 @@
+body{
+  background: #ccc;
+}
 .wrap{
-  width: 1200px;
+  width: 800px;
   margin: 0 auto;
 }
 .topic-list ul li { line-height: 24px; padding: 20px 0; border-bottom: 1px solid #eee; box-sizing: border-box;}
@@ -10,15 +13,15 @@
 .topic-list ul li:hover .l-btn { border: none; color: #fff; background-image: linear-gradient(270deg, #ff5e2c 0%, #ffa88d 100%); }
 .topic-list .l-title, .topic-list .l-score { float: left; }
 .topic-list .l-btn { float: right; }
-.topic-list .l-title { width: 490px; }
+.topic-list .l-title { width: 430px; }
 .topic-list .l-title .t-col { float: left; width: 98%; }
 .topic-list .l-title .t-bg { float: left; height: 100%; margin: 0 10px; }
-.topic-list .l-title .t-bg + .t-col { width: 86%; }
+.topic-list .l-title .t-bg + .t-col { width: 70%; }
 .topic-list .l-title .t-text { font-size: 16px; }
 .topic-list .l-title .degree { font-size: 12px; color: #999999; }
 .topic-list .l-score { color: #999999; padding-top: 10px; }
 .topic-list .l-score span { margin-right: 50px; }
-.topic-list .l-btn { padding: 0 16px; height: 26px; line-height: 24px; background-color: #fff4f1; color: #ff5e2c; border: 1px solid #ff5e2c; box-sizing: border-box; border-radius: 13px; margin-top: 10px; margin-right: 28px; }
+.topic-list .l-btn { padding: 0 16px; height: 26px; line-height: 24px; background-color: #fff4f1; color: #ff5e2c; border: 1px solid #ff5e2c; box-sizing: border-box; border-radius: 13px; margin-top: 10px; }
 
 /*分页*/
 .page-wrap { width: 100%; border-top: 1px solid #ddd; display: -webkit-box; -webkit-box-orient: horizontal; display: box; box-orient: horizontal; display: -webkit-flex; -webkit-flex-direction: row; display: flex; flex-direction: row; }
